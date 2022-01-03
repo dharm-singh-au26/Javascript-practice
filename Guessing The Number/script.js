@@ -11,7 +11,7 @@
 // document.querySelector(".guess").value = 22;
 // console.log(document.querySelector(".guess").value);
 
-const secrateNumber = Math.trunc(Math.random() * 20 + 1);
+let secrateNumber = Math.trunc(Math.random() * 20 + 1);
 document.querySelector(".number").textContent = secrateNumber;
 
 let score = 20;
