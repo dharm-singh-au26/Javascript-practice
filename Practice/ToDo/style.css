@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 600px;
+  width: 100%;
+  background-color: rgb(168, 11, 38);
+}
+.items {
+  margin: 0px 50px;
+}
+
+h1 {
+  text-align: center;
+}
