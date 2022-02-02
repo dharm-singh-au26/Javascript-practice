@@ -1,37 +1,44 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>ToDO App</title>
+    <title>To-Do List App</title>
   </head>
   <body>
-    <div class="container">
-      <h1>TODO APP</h1>
-      <div class="items">
-        <input type="text" placeholder="New ToDo Item " />
-
-        <label for="cars">Todo Type</label>
-        <select name="" id="todo">
-          <option value="">Type-1</option>
-          <option value="">Type-2</option>
-          <option value="">Type-3</option>
-          <option value="">Type-4</option>
+    <!-- TITLE -->
+    <header>
+      <h1>WORKS TO BE DONE</h1>
+    </header>
+    <!-- INPUT FIELD TO ENTER TASK AND DROPDOWN FILTER -->
+    <form>
+      <input type="text" placeholder="Enter The Work" class="todo_input" />
+      <button class="todo_button" type="submit">
+        <i class="fas fa-plus-square"></i>
+      </button>
+      <div class="select">
+        <select name="todos" class="filter_todo">
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="uncompleted">Uncompleted</option>
         </select>
-        <button>Add</button>
-
-        <input type="text" placeholder="id for the the todo item for deleted" />
-        <button>Delete</button>
       </div>
-      <div class="lists">
-        <ul>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-        </ul>
-      </div>
+    </form>
+    <!-- CONTAINER FOR DISPLAYING TO-DO LIST BY ADDING TASKS DYNAMICALLY USING JAVASCRIPT -->
+    <div class="todo_container">
+      <ul class="todo_list"></ul>
     </div>
+    <!-- ADDING JAVA SCRIPT -->
+    <script src="main.js"></script>
   </body>
 </html>
