@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+
+.container {
+  margin-left: 33%;
+  width: 30%;
+  height: 100vh;
+  background-color: rgb(255, 81, 0);
+}
+
+.Date_time {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.instruction {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+.pattern {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pattern div {
+  margin: 30px;
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.number {
+  text-align: center;
+}
