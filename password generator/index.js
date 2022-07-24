@@ -4,3 +4,4 @@ const passwordGenerator = () =>{
     document.getElementById("generator").value = password
 
 }
+
