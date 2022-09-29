@@ -53,7 +53,7 @@ console.log(data)
 */
 
 // search element in array
-
+/*
 let data = [60,30,3,9,10,50]
 let item = 10
 for(let i=0;i<=data.length-1;i++){
@@ -64,3 +64,25 @@ for(let i=0;i<=data.length-1;i++){
 // console.log(index)
 
 console.log(data.indexOf(2) )  
+*/
+
+// merge array
+/*
+let data1 = [60,30,3,9,10,50]
+let data2 = [68,35,13,90,1,5]
+
+let data3 = data1.concat(data2)
+
+console.log(data3)
+*/
+/*
+let data1 = [60,30,3,9,10,50]
+let data2 = [68,35,13,90,1,5]
+let data3 = [...data1,...data2]
+console.log(data3)
+*/
+
+
+
+
+  
