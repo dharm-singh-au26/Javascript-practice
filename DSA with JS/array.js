@@ -52,3 +52,15 @@ data.splice(3,1)
 console.log(data)
 */
 
+// search element in array
+
+let data = [60,30,3,9,10,50]
+let item = 10
+for(let i=0;i<=data.length-1;i++){
+    if(data[i]===item){
+        index=i
+    }
+}
+console.log(index)
+
+data.indexOf(10)   
