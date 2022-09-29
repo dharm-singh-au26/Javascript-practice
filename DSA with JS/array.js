@@ -30,4 +30,25 @@ console.log(data)
  console.log(data)
  */
 
+// delete element in array
+/*
+let data = [60,30,3,9,10,50]
+
+let dltPosition = 3 ;
+
+for (let i = dltPosition; i <= data.length-1; i++) {
+    data[i]= data[i+1]
+}
+data.length = data.length-1
+
+console.log(data)
+*/
+
+// dlt element using splice 
+/*
+let data = [60,30,3,9,10,50]
+
+data.splice(3,1)
+console.log(data)
+*/
 
