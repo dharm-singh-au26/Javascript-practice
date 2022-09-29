@@ -61,6 +61,6 @@ for(let i=0;i<=data.length-1;i++){
         index=i
     }
 }
-console.log(index)
+// console.log(index)
 
-data.indexOf(10)   
+console.log(data.indexOf(2) )  
